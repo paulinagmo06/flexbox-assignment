@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cherry Blossoms</title>
+	
+<!--link to CSS style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+<!-- jQuery + jQuery UI CDN -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+	
+</head>
+
+<body>
+	<div class="container">
+
+    <header>
+        <h1>Cherry Blossoms</h1>
+        <p>The beauty of spring</p>
+    </header>
+
+    <!-- FLEXBOX ROW SECTION -->
+    <section class="row-section">
+        <div class="card">Japan</div>
+        <div class="card">Spring Season</div>
+        <div class="card">Symbol of Renewal</div>
+    </section>
+
+    <!-- FLEXBOX COLUMN SECTION -->
+    <section class="column-section">
+        <div class="column-item">
+            <h2>About Sakura</h2>
+            <p>
+                Cherry blossoms, also known as sakura, bloom in the spring and
+                symbolize renewal, hope, and the beauty of life.
+            </p>
+        </div>
+
+        <div class="column-item">
+            <img src="images/cherry-blossom.jpg" alt="Cherry Blossoms">
+        </div>
+    </section>
+
+    <!-- JQUERY UI ACCORDION -->
+    <section>
+        <h2>Fun Facts</h2>
+		
+    <button class="accordion">
+            <h3>Bloom Time</h3>
+	</button>
+		
+		<div class="panel1">
+            <p>Cherry blossoms bloom for only 1–2 weeks each year.</p>
+		</div>
+            
+	<button class="accordion">
+            <h3>Hanami</h3>
+		</button>
+		
+            <div class="panel1">
+                <p>In Japan, people celebrate by having picnics under the trees called Hanami.</p>
+            </div>
+		
+	<button class="accordion">
+            <h3>Symbolism</h3>
+	</button>
+		
+            <div class="panel1">
+                <p>They represent the fleeting nature of life.</p>
+            </div>
+    </section>
+		
+		<!--footer-->
+		<footer>
+			<p>&copy; 2026 ☆ Cherry Blossoms ☆</p>
+		</footer>
+
+</div>
+
+	<script src="flexbox-js.js"></script>
+	
+</body>
+</html>
